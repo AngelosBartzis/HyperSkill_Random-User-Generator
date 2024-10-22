@@ -1,0 +1,36 @@
+.user {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+#get-user-button,
+#save-users-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: lightblue;
+}
+
+.saved {
+    border-color: #4caf50; /* Green border for saved users */
+}
